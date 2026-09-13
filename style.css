@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7f9;
+  color: #1d2a36;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: linear-gradient(135deg, #0b3d91, #1d7ca7);
+  color: #ffffff;
+  padding: 70px 0 50px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.6rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+header p {
+  margin: 12px 0 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+}
+
+section {
+  padding: 40px 0;
+}
+
+.welcome {
+  background: #ffffff;
+}
+
+.welcome h2,
+.projects h3 {
+  margin-top: 0;
+  color: #123b68;
+}
+
+.projects {
+  background: #eef6fb;
+}
+
+.projects ul {
+  margin: 20px 0 0;
+  padding-left: 24px;
+  font-size: 1.05rem;
+}
+
+.projects li {
+  margin-bottom: 8px;
+}
+
+.news {
+  background: #dfeaf4;
+}
+
+.news p {
+  margin: 0;
+  font-size: 1.05rem;
+}
+
+footer {
+  background: #11263d;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer p {
+  margin: 0;
+  letter-spacing: 0.08em;
+}
